@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+preferredSDKMapping={" \: "\:"com.silabs.sdk.stack.btmesh\:1.3.0.0_1871568261","mcu.arm.efr32.bg13.efr32bg13p632f512gm48 \: brd4104a\:0.0.0.A00 brd4001a\:0.0.0.A01"\:"com.silabs.sdk.stack.btmesh\:1.3.0.0_1871568261"}

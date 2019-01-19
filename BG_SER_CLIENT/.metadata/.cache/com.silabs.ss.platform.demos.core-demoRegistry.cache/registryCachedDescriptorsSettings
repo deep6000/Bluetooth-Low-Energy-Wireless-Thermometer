@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="$registry.cache.settings">
+    <properties key="prevKnownDetectorClasses" value="com.silabs.ss.platform.internal.demos.core.SDKDemosDetector com.silabs.ss.app.internal.api.ide.demos.EsfDemoDetector com.silabs.ss.platform.api.content.core.registry.GeneralMetadataDetector com.ember.workbench.scenario.model.MultiNodeDemoDetector"/>
+  </descriptors>
+</model:MDescriptors>

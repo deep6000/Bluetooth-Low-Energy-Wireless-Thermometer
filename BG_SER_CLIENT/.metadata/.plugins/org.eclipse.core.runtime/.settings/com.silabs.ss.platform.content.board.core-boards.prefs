@@ -1,0 +1,6 @@
+defaultSelection=brd4104a\:0.0.0.A00\u0000brd4001a\:0.0.0.A01\u0000
+disabledIDs=\u0000
+eclipse.preferences.version=1
+enabledIDs=\u0000
+knownPackageIds=com.silabs.metadata.hwtools.feature,com.silabs.metadata.ffd.feature,com.silabs.metadata.sensors.feature,com.silabs.metadata.c8051.feature,com.silabs.metadata.emxxx.feature,com.silabs.metadata.iots.feature
+knownParentDescs_com.silabs.ss.platform.content.core-metadataConfigs=Built In\u0000H\:\\Simplicity\\configuration\\studio\\metadata

@@ -1,0 +1,1001 @@
+!SESSION 2018-10-21 18:44:24.553 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-10-21 18:44:51.253
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.installer.base 1 0 2018-10-21 18:44:53.487
+!MESSAGE Secure archive download use of proxy is: false
+
+!ENTRY com.silabs.ss.tool.ide.arm.toolchain.iar 1 0 2018-10-21 18:45:09.696
+!MESSAGE detectIAREWARMFromRegistry: null
+
+!ENTRY com.silabs.ss.platform.installer.core 4 0 2018-10-21 18:45:15.514
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:203)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.refreshRepository(MetadataRepositoryManager.java:100)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getLocalStudioMetadataRepoToIu(InstallerUtils.java:620)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.findFeaturesForCapabilities(InstallerUtils.java:747)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.scanFeaturesProvidingMetadata(InstallerUtils.java:438)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getPackageProvidingMetadata(InstallerUtils.java:459)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.loadRemotePackages(PackageService.java:685)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getAllAvailablePackages(PackageService.java:143)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getEarlyAccessIncludedPackages(PackageService.java:363)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.processPreInstallPackages(InstallerUtils.java:2038)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1964)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:216)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:287)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.access$4(UpdateManager.java:278)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:167)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-10-21 18:45:15.517
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-10-21 18:45:22.900
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 18:45:32.916
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, boards=none, BRD4165B] in framework btmesh
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 18:45:35.750
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc] in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 18:45:35.761
+!MESSAGE Unknown board 'BRD4165B' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 18:45:36.102
+!MESSAGE Unknown architecture(s) [EFR32BG13P632F512IM48+iar, EFR32FG13P231F512IM48+iar, EFR32MG13P732F512IM48+iar, EFR32MG13P733F512IM48+iar, EFR32MG13P832F512GM48+iar, EFR32MG13P832F512IM48+iar, EFR32MG13P932F512GM48+iar, EFR32MG13P932F512IM48+iar, EFR32FG14V132F256GM32+iar, EFR32FG14V132F256GM48+iar, EFR32BG13P632F512IM48+gcc, EFR32FG13P231F512IM48+gcc, EFR32MG13P732F512IM48+gcc, EFR32MG13P733F512IM48+gcc, EFR32MG13P832F512GM48+gcc, EFR32MG13P832F512IM48+gcc, EFR32MG13P932F512GM48+gcc, EFR32MG13P932F512IM48+gcc, EFR32FG14V132F256GM32+gcc, EFR32FG14V132F256GM48+gcc] in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 18:45:36.115
+!MESSAGE Unknown board 'BRD4165A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 18:45:36.123
+!MESSAGE Unknown board 'BRD4165B' in framework flex
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-10-21 18:47:31.150
+!MESSAGE Indexed 'BG_CLIENT' (0 sources, 0 headers) in 0.008 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-10-21 18:49:34.049
+!MESSAGE Indexed 'BG_SERVER' (81 sources, 227 headers) in 13 sec: 19,644 declarations; 48,484 references; 1 unresolved inclusions; 76 syntax errors; 56 unresolved names (0.082%)
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:53.841
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app NCP target - Empty
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.271
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+iar] in sample app NCP target - Switched Multiprotocol Trust Center
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.330
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - DTM
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.513
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Empty - RAIL - DMP
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.648
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Light - RAIL - DMP
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.695
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Range Test - RAIL - DMP
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.730
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Smart Phone App
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.802
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Thermometer
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:36:54.843
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Thermometer - RTOS
+
+!ENTRY com.silabs.foundation.core_rcp 4 0 2018-10-21 19:40:12.065
+!MESSAGE Generation failed
+!STACK 0
+com.ember.workbench.app_framework.model.ConfigurationException: BgBuild execution timed out after 2000 msec
+	at com.ember.workbench.ble_gatt_configurator.BleGattSetup.generateContent(BleGattSetup.java:140)
+	at com.ember.workbench.ble_gatt_configurator.BleGattSetup.generateContent(BleGattSetup.java:1)
+	at com.ember.workbench.app_framework.model.SetupUtilities.generateSetups(SetupUtilities.java:106)
+	at com.ember.workbench.app_framework.generator.external.SdkControlledGenerator.generate(SdkControlledGenerator.java:55)
+	at com.ember.workbench.app_framework.ui.AppFrameworkUiUtilities$GenerateRunnable.run(AppFrameworkUiUtilities.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:42:44.271
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 19:43:08.173
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+   gatt_db.c backed up to gatt_db.c.bak
+   gatt_db.h backed up to gatt_db.h.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.h
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\create_bl_files.bat
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_board.c
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:46:24.482
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 19:46:46.231
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+   gatt_db.c backed up to gatt_db.c.bak
+   gatt_db.h backed up to gatt_db.h.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.h
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_board.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\create_bl_files.bat
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 19:51:26.893
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 19:51:40.489
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+   gatt_db.c backed up to gatt_db.c.bak
+   gatt_db.h backed up to gatt_db.h.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt_db.h
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_board.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\create_bl_files.bat
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_app.c
+
+
+!ENTRY org.eclipse.equinox.event 4 0 2018-10-21 19:52:51.771
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/application/ApplicationElement/tags/REMOVE] {ChangedElement=org.eclipse.e4.ui.model.application.ui.advanced.impl.PlaceholderImpl@372153eb (elementId: org.eclipse.ui.editorss, tags: [], contributorURI: null) (widget: Composite {}, renderer: org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer@1f293cb7, toBeRendered: true, onTop: false, visible: true, containerData: 6314, accessibilityPhrase: null) (closeable: false), Widget=Composite {}, AttName=tags, EventType=REMOVE, Position=0, OldValue=Maximized} to handler org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler@2d3b00be
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:56)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:53)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.remove(NotifyingListImpl.java:725)
+	at org.eclipse.emf.common.util.AbstractEList.remove(AbstractEList.java:462)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.resetPerspectiveModel(ModelServiceImpl.java:767)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.resetPerspectiveModel(ModelServiceImpl.java:731)
+	at org.eclipse.ui.internal.WorkbenchPage.resetPerspective(WorkbenchPage.java:3430)
+	at com.silabs.ss.tool.energyprofiler.internal.core.ui.ProfilerPerspectiveHandler.perspectiveActivated(ProfilerPerspectiveHandler.java:108)
+	at org.eclipse.ui.internal.PerspectiveListenerList$1.run(PerspectiveListenerList.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.PerspectiveListenerList.fireEvent(PerspectiveListenerList.java:58)
+	at org.eclipse.ui.internal.PerspectiveListenerList.firePerspectiveActivated(PerspectiveListenerList.java:72)
+	at org.eclipse.ui.internal.WorkbenchWindow.firePerspectiveActivated(WorkbenchWindow.java:1694)
+	at org.eclipse.ui.internal.WorkbenchPage$4.handleEvent(WorkbenchPage.java:2982)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:4055)
+	at com.silabs.ss.platform.api.rcp.ui.WorkbenchUtils$6.run(WorkbenchUtils.java:371)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:37)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.IllegalStateException: Application does not have an active window
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.getActiveWindowService(ApplicationPartServiceImpl.java:43)
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.requestActivation(ApplicationPartServiceImpl.java:82)
+	at org.eclipse.e4.ui.internal.workbench.ApplicationPartServiceImpl.requestActivation(ApplicationPartServiceImpl.java:82)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.unzoom(MinMaxAddon.java:826)
+	at org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon.subscribeTopicTagsChanged(MinMaxAddon.java:372)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 77 more
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 20:05:37.139
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 20:05:53.961
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+   gatt_db.c backed up to gatt_db.c.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt_db.c
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt_db.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_board.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\create_bl_files.bat
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 20:06:12.265
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 20:06:17.210
+!MESSAGE Generation successful!
+
+
+Files generated:
+   NONE!
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\gatt_db.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\create_bl_files.bat
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_CLIENT\.\init_board.c
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 20:17:23.473
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 20:17:34.222
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt.xml
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\create_bl_files.bat
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_board.c
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 20:18:06.913
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 20:19:18.858
+!MESSAGE Generation successful!
+
+
+Files generated:
+   NONE!
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_board.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\create_bl_files.bat
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 21:18:33.554
+!MESSAGE Could not disable AEM data on the adapter: 000440061686
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 21:26:17.672
+!MESSAGE Could not disable AEM data on the adapter: 000440061686
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 21:32:11.928
+!MESSAGE Could not disable AEM data on the adapter: 000440063872
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 21:35:09.341
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 21:35:26.190
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+   gatt_db.c backed up to gatt_db.c.bak
+   gatt_db.h backed up to gatt_db.h.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.h
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_board.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\create_bl_files.bat
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\ble-configuration.h
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 21:52:16.714
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 21:52:27.357
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+   gatt_db.c backed up to gatt_db.c.bak
+   gatt_db.h backed up to gatt_db.h.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.h
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\BgBuild_Log.txt
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_board.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\create_bl_files.bat
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_mcu.c
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 21:57:03.176
+!MESSAGE Could not find a quiz yaml file: H:\Simplicity\developer\sdks\gecko_sdk_suite\v2.3\app\bluetooth\appbuilder\fwk\meta-inf\quizz.yaml
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 21:57:32.300
+!MESSAGE Generation successful!
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-21 21:57:41.069
+!MESSAGE Generation successful!
+
+Files backed up:
+   gatt.xml backed up to gatt.xml.bak
+   gatt_db.c backed up to gatt_db.c.bak
+   gatt_db.h backed up to gatt_db.h.bak
+   BgBuild_Log.txt backed up to BgBuild_Log.txt.bak
+
+Files generated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt.xml
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\gatt_db.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\BgBuild_Log.txt
+
+Files always updated:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER
+
+Unmodified files:
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\ble-configuration.h
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_app.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_mcu.c
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\create_bl_files.bat
+   F:\MS Embedded Systems\IOT\Practicals\BG_SER_CLIENT\BG_SERVER\.\init_board.c
+
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-21 22:06:05.630
+!MESSAGE Could not disable AEM data on the adapter: 000440063872
+!SESSION 2018-10-25 15:42:55.664 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.ide.arm.toolchain.iar 1 0 2018-10-25 15:43:28.635
+!MESSAGE detectIAREWARMFromRegistry: null
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:44:00.060
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc] in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:44:00.070
+!MESSAGE Unknown board 'BRD4165B' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:44:00.388
+!MESSAGE Unknown architecture(s) [EFR32BG13P632F512IM48+iar, EFR32FG13P231F512IM48+iar, EFR32MG13P732F512IM48+iar, EFR32MG13P733F512IM48+iar, EFR32MG13P832F512GM48+iar, EFR32MG13P832F512IM48+iar, EFR32MG13P932F512GM48+iar, EFR32MG13P932F512IM48+iar, EFR32FG14V132F256GM32+iar, EFR32FG14V132F256GM48+iar, EFR32BG13P632F512IM48+gcc, EFR32FG13P231F512IM48+gcc, EFR32MG13P732F512IM48+gcc, EFR32MG13P733F512IM48+gcc, EFR32MG13P832F512GM48+gcc, EFR32MG13P832F512IM48+gcc, EFR32MG13P932F512GM48+gcc, EFR32MG13P932F512IM48+gcc, EFR32FG14V132F256GM32+gcc, EFR32FG14V132F256GM48+gcc] in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:44:00.396
+!MESSAGE Unknown board 'BRD4165A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:44:00.407
+!MESSAGE Unknown board 'BRD4165B' in framework flex
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-10-25 15:44:19.782
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.installer.base 1 0 2018-10-25 15:44:26.231
+!MESSAGE Secure archive download use of proxy is: false
+
+!ENTRY com.silabs.ss.platform.installer.core 4 0 2018-10-25 15:44:48.677
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:203)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.refreshRepository(MetadataRepositoryManager.java:100)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getLocalStudioMetadataRepoToIu(InstallerUtils.java:620)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.findFeaturesForCapabilities(InstallerUtils.java:747)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.scanFeaturesProvidingMetadata(InstallerUtils.java:438)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getPackageProvidingMetadata(InstallerUtils.java:459)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.loadRemotePackages(PackageService.java:685)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getAllAvailablePackages(PackageService.java:143)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getEarlyAccessIncludedPackages(PackageService.java:363)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.processPreInstallPackages(InstallerUtils.java:2038)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1964)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:216)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:287)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.access$4(UpdateManager.java:278)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:167)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-10-25 15:44:48.725
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-10-25 15:44:54.881
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:46:27.194
+!MESSAGE Could not reset board.
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:363)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.silabs.pti.adapter.Connection.connect(Connection.java:73)
+	at com.ember.workbench.ethernet.variant.Wstk.resetBoard(Wstk.java:322)
+	at com.ember.workbench.ethernet.capability.Connect.activate(Connect.java:122)
+	at com.silabs.ss.platform.api.capability.Capability.run(Capability.java:350)
+	at com.silabs.ss.platform.api.capability.Capability.access$0(Capability.java:337)
+	at com.silabs.ss.platform.api.capability.Capability$4.run(Capability.java:540)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:46:28.210
+!MESSAGE Could not connect to adapter: J-Link Silicon Labs (440063872)
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:363)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.silabs.pti.adapter.Connection.connect(Connection.java:73)
+	at com.silabs.pti.adapter.IBackchannel.connect(IBackchannel.java:73)
+	at com.ember.workbench.ethernet.capability.Connect.connect(Connect.java:92)
+	at com.ember.workbench.ethernet.capability.Connect.activate(Connect.java:127)
+	at com.silabs.ss.platform.api.capability.Capability.run(Capability.java:350)
+	at com.silabs.ss.platform.api.capability.Capability.access$0(Capability.java:337)
+	at com.silabs.ss.platform.api.capability.Capability$4.run(Capability.java:540)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:48:29.894
+!MESSAGE Could not disable AEM data on the adapter: 000440063872
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:53:58.892
+!MESSAGE Could not disable AEM data on the adapter: 000440061686
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 15:55:00.470
+!MESSAGE Could not disable AEM data on the adapter: 000440063872
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-25 16:13:14.545
+!MESSAGE Could not disable AEM data on the adapter: 000440061686
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-26 16:52:43.284
+!MESSAGE Could not reset board.
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:363)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.silabs.pti.adapter.Connection.connect(Connection.java:73)
+	at com.ember.workbench.ethernet.variant.Wstk.resetBoard(Wstk.java:322)
+	at com.ember.workbench.ethernet.capability.Connect.activate(Connect.java:122)
+	at com.silabs.ss.platform.api.capability.Capability.run(Capability.java:350)
+	at com.silabs.ss.platform.api.capability.Capability.access$0(Capability.java:337)
+	at com.silabs.ss.platform.api.capability.Capability$4.run(Capability.java:540)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-26 16:54:46.902
+!MESSAGE Could not disable AEM data on the adapter: 000440061686
+!SESSION 2018-10-28 23:11:20.542 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.ide.arm.toolchain.iar 1 0 2018-10-28 23:12:36.367
+!MESSAGE detectIAREWARMFromRegistry: null
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:13:39.351
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc] in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:13:39.377
+!MESSAGE Unknown board 'BRD4165B' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:13:39.821
+!MESSAGE Unknown architecture(s) [EFR32BG13P632F512IM48+iar, EFR32FG13P231F512IM48+iar, EFR32MG13P732F512IM48+iar, EFR32MG13P733F512IM48+iar, EFR32MG13P832F512GM48+iar, EFR32MG13P832F512IM48+iar, EFR32MG13P932F512GM48+iar, EFR32MG13P932F512IM48+iar, EFR32FG14V132F256GM32+iar, EFR32FG14V132F256GM48+iar, EFR32BG13P632F512IM48+gcc, EFR32FG13P231F512IM48+gcc, EFR32MG13P732F512IM48+gcc, EFR32MG13P733F512IM48+gcc, EFR32MG13P832F512GM48+gcc, EFR32MG13P832F512IM48+gcc, EFR32MG13P932F512GM48+gcc, EFR32MG13P932F512IM48+gcc, EFR32FG14V132F256GM32+gcc, EFR32FG14V132F256GM48+gcc] in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:13:39.840
+!MESSAGE Unknown board 'BRD4165A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:13:39.858
+!MESSAGE Unknown board 'BRD4165B' in framework flex
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-10-28 23:14:09.299
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.installer.base 1 0 2018-10-28 23:14:15.784
+!MESSAGE Secure archive download use of proxy is: false
+
+!ENTRY com.silabs.ss.platform.installer.core 4 0 2018-10-28 23:14:48.475
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:203)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.refreshRepository(MetadataRepositoryManager.java:100)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getLocalStudioMetadataRepoToIu(InstallerUtils.java:620)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.findFeaturesForCapabilities(InstallerUtils.java:747)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.scanFeaturesProvidingMetadata(InstallerUtils.java:438)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getPackageProvidingMetadata(InstallerUtils.java:459)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.loadRemotePackages(PackageService.java:685)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getAllAvailablePackages(PackageService.java:143)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getEarlyAccessIncludedPackages(PackageService.java:363)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.processPreInstallPackages(InstallerUtils.java:2038)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1964)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:216)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:287)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.access$4(UpdateManager.java:278)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:167)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-10-28 23:14:48.569
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-10-28 23:15:06.695
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.installer.ui 4 0 2018-10-28 23:15:06.763
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 0 2018-10-28 23:15:06.781
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at com.silabs.ss.platform.internal.product.Application.start(Application.java:37)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.NullPointerException
+	at com.silabs.ss.platform.internal.installer.ui.update.SLSPerspectiveUpdateSequenceListener.decorateUpdatesToolItem(SLSPerspectiveUpdateSequenceListener.java:144)
+	at com.silabs.ss.platform.internal.installer.ui.update.SLSPerspectiveUpdateSequenceListener$1.run(SLSPerspectiveUpdateSequenceListener.java:60)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 24 more
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:31:21.074
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, boards=none, BRD4165B] in framework btmesh
+
+!ENTRY com.silabs.foundation.core_rcp 4 0 2018-10-28 23:31:43.036
+!MESSAGE Demo information file is empty at H:\Simplicity\configuration\org.eclipse.osgi\687\0\.cp\demos\demos.xml
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:31:44.117
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app NCP - Mesh Empty Target
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:31:46.786
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Bt Mesh Light
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:31:47.227
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Bt Mesh Switch
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:31:56.840
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app NCP target - Empty
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:31:59.022
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+iar] in sample app NCP target - Switched Multiprotocol Trust Center
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:31:59.145
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - DTM
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:32:00.605
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Empty - RAIL - DMP
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:32:01.127
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Light - RAIL - DMP
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:32:01.516
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Range Test - RAIL - DMP
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:32:01.678
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Smart Phone App
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:32:02.209
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Thermometer
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:32:02.276
+!MESSAGE Unknown architecture(s) [efr32mg13p832f512im48+brd4165b+gcc, efr32mg13p832f512im48+brd4165b+iar] in sample app SOC - Thermometer - RTOS
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:32:08.013
+!MESSAGE Unknown architecture(s) [BRD4165B] in sample app RAIL: Range Test
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-28 23:32:10.162
+!MESSAGE EXPLICIT: entry removed in Demos cache for Hardware {
+  sdk=com.silabs.sdk.stack.btmesh:1.3.0.0_1871568261
+}
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-28 23:32:10.185
+!MESSAGE EXPLICIT: entry removed in Demos cache for Hardware {
+  sdk=com.silabs.sdk.none:0.0.0
+}
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-28 23:32:28.867
+!MESSAGE EXPLICIT: entry removed in Examples cache for (Hardware {
+  sdk=com.silabs.sdk.none:0.0.0
+}, simplicity-ide)
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-28 23:32:28.960
+!MESSAGE EXPLICIT: entry removed in Examples cache for (Hardware {
+  board=brd4104a:0.0.0.A00 brd4001a:0.0.0.A01
+  kit=wstk6020b:0.0.0
+  part=mcu.arm.efr32.bg13.efr32bg13p632f512gm48
+  sdk=com.silabs.sdk.stack.super:2.3.1._-1949731599
+}, simplicity-ide)
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-28 23:32:28.993
+!MESSAGE EXPLICIT: entry removed in Examples cache for (Hardware {
+  sdk=com.silabs.sdk.stack.btmesh:1.3.0.0_1871568261
+}, simplicity-ide)
+
+!ENTRY com.silabs.foundation.core_rcp 1 0 2018-10-28 23:34:43.864
+!MESSAGE EXPLICIT: entry removed in Examples cache for (Hardware {
+  board=brd4104a:0.0.0.A00 brd4001a:0.0.0.A01
+  kit=wstk6020b:0.0.0
+  part=mcu.arm.efr32.bg13.efr32bg13p632f512gm48
+  sdk=com.silabs.sdk.stack.btmesh:1.3.0.0_1871568261
+}, simplicity-ide)
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-10-28 23:35:55.073
+!MESSAGE Generation successful!
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-10-28 23:36:42.147
+!MESSAGE Indexed 'soc-btmesh-light' (51 sources, 223 headers) in 17 sec: 30,268 declarations; 72,792 references; 3 unresolved inclusions; 79 syntax errors; 59 unresolved names (0.057%)
+!SESSION 2018-11-05 22:55:46.551 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.ide.arm.toolchain.iar 1 0 2018-11-05 22:56:45.735
+!MESSAGE detectIAREWARMFromRegistry: null
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:57:46.408
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc] in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:57:46.430
+!MESSAGE Unknown board 'BRD4165B' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:57:46.937
+!MESSAGE Unknown architecture(s) [EFR32BG13P632F512IM48+iar, EFR32FG13P231F512IM48+iar, EFR32MG13P732F512IM48+iar, EFR32MG13P733F512IM48+iar, EFR32MG13P832F512GM48+iar, EFR32MG13P832F512IM48+iar, EFR32MG13P932F512GM48+iar, EFR32MG13P932F512IM48+iar, EFR32FG14V132F256GM32+iar, EFR32FG14V132F256GM48+iar, EFR32BG13P632F512IM48+gcc, EFR32FG13P231F512IM48+gcc, EFR32MG13P732F512IM48+gcc, EFR32MG13P733F512IM48+gcc, EFR32MG13P832F512GM48+gcc, EFR32MG13P832F512IM48+gcc, EFR32MG13P932F512GM48+gcc, EFR32MG13P932F512IM48+gcc, EFR32FG14V132F256GM32+gcc, EFR32FG14V132F256GM48+gcc] in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:57:46.955
+!MESSAGE Unknown board 'BRD4165A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:57:46.974
+!MESSAGE Unknown board 'BRD4165B' in framework flex
+!SESSION 2018-11-05 22:58:37.176 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.ide.arm.toolchain.iar 1 0 2018-11-05 22:58:52.244
+!MESSAGE detectIAREWARMFromRegistry: null
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:59:02.989
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc] in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:59:03.001
+!MESSAGE Unknown board 'BRD4165B' in framework ble
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:59:03.217
+!MESSAGE Unknown architecture(s) [EFR32BG13P632F512IM48+iar, EFR32FG13P231F512IM48+iar, EFR32MG13P732F512IM48+iar, EFR32MG13P733F512IM48+iar, EFR32MG13P832F512GM48+iar, EFR32MG13P832F512IM48+iar, EFR32MG13P932F512GM48+iar, EFR32MG13P932F512IM48+iar, EFR32FG14V132F256GM32+iar, EFR32FG14V132F256GM48+iar, EFR32BG13P632F512IM48+gcc, EFR32FG13P231F512IM48+gcc, EFR32MG13P732F512IM48+gcc, EFR32MG13P733F512IM48+gcc, EFR32MG13P832F512GM48+gcc, EFR32MG13P832F512IM48+gcc, EFR32MG13P932F512GM48+gcc, EFR32MG13P932F512IM48+gcc, EFR32FG14V132F256GM32+gcc, EFR32FG14V132F256GM48+gcc] in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:59:03.226
+!MESSAGE Unknown board 'BRD4165A' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:59:03.234
+!MESSAGE Unknown board 'BRD4165B' in framework flex
+
+!ENTRY com.silabs.foundation.core_rcp 2 0 2018-11-05 22:59:19.177
+!MESSAGE Unknown architecture(s) [efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[832]~flash[512k]~temp[g]~package[m]~pins[48]+gcc, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+iar, efr32~family[m]~series[1]~device_configuration[3]~performance[p]~radio[932]~flash[512k]~temp[i]~package[m]~pins[48]+gcc, boards=none, BRD4165B] in framework btmesh
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-11-05 22:59:27.742
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.installer.base 1 0 2018-11-05 22:59:31.567
+!MESSAGE Secure archive download use of proxy is: false
+
+!ENTRY com.silabs.ss.platform.installer.core 4 0 2018-11-05 23:00:02.179
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:203)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.refreshRepository(MetadataRepositoryManager.java:100)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getLocalStudioMetadataRepoToIu(InstallerUtils.java:620)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.findFeaturesForCapabilities(InstallerUtils.java:747)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.scanFeaturesProvidingMetadata(InstallerUtils.java:438)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.getPackageProvidingMetadata(InstallerUtils.java:459)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.loadRemotePackages(PackageService.java:685)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getAllAvailablePackages(PackageService.java:143)
+	at com.silabs.ss.platform.internal.installer.core.PackageService.getEarlyAccessIncludedPackages(PackageService.java:363)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.processPreInstallPackages(InstallerUtils.java:2038)
+	at com.silabs.ss.platform.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1964)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:216)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:287)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager.access$4(UpdateManager.java:278)
+	at com.silabs.ss.platform.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:167)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-11-05 23:00:02.213
+!MESSAGE No repository found at jar:file:/H:/Simplicity/offline/archive/control/stacks/MosKRNX/krnx_archive.zip!/updates/.
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2018-11-05 23:00:14.631
+!MESSAGE Local timestamp file does not exist: H:\Simplicity\offline\common\Simplicity_Studio_Terms_of_Use_and_Privacy_Statement.timestamp
+
+!ENTRY com.silabs.ss.platform.analytics.core 4 0 2018-11-05 23:00:18.156
+!MESSAGE 
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at com.silabs.ss.platform.content.kit.core.Kit.registry(Kit.java:29)
+	at com.silabs.ss.platform.content.kit.core.KitUtils.findMatchingKitsToBoardMappings(KitUtils.java:49)
+	at com.silabs.ss.platform.content.kit.core.KitUtils.findMatchingKits(KitUtils.java:39)
+	at com.silabs.ss.platform.api.device.core.DeviceAnalyticsData.getJSON(DeviceAnalyticsData.java:66)
+	at com.silabs.ss.platform.api.device.core.DeviceAnalyticsData.lambda$0(DeviceAnalyticsData.java:37)
+	at com.silabs.ss.platform.internal.analytics.core.AnalyticsEventHandler.getEventJsonData(AnalyticsEventHandler.java:196)
+	at com.silabs.ss.platform.internal.analytics.core.AnalyticsEventHandler.sweepEventsToUploadService(AnalyticsEventHandler.java:163)
+	at com.silabs.ss.platform.internal.analytics.core.AnalyticsEventHandler.deactivate(AnalyticsEventHandler.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:363)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:366)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:355)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:109)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:914)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:862)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:801)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:222)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:356)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.disposeComponentConfigs(Resolver.java:724)
+	at org.eclipse.equinox.internal.ds.Resolver.disableComponents(Resolver.java:700)
+	at org.eclipse.equinox.internal.ds.SCRManager.stoppingBundle(SCRManager.java:554)
+	at org.eclipse.equinox.internal.ds.SCRManager.bundleChanged(SCRManager.java:233)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:902)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:165)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:75)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:67)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:102)
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:466)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:624)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:144)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.<init>(EclipseContextOSGi.java:40)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.getServiceContext(EclipseContextFactory.java:58)
+	at com.silabs.ss.platform.internal.installer.core.registry.RegistryPackageInstallerPlugin.<init>(RegistryPackageInstallerPlugin.java:63)
+	at com.silabs.ss.platform.internal.installer.core.registry.RegistryPackageInstallerProvider.createPlugin(RegistryPackageInstallerProvider.java:32)
+	at com.silabs.ss.platform.api.content.core.registry.BaseRegistry.lambda$0(BaseRegistry.java:103)
+	at java.util.HashMap$Values.forEach(HashMap.java:980)
+	at com.silabs.ss.platform.api.content.core.registry.BaseRegistry.initFromConfig(BaseRegistry.java:102)
+	at com.silabs.ss.platform.api.content.core.registry.BaseExtensionBackedRegistry.initFromConfig(BaseExtensionBackedRegistry.java:96)
+	at com.silabs.ss.platform.api.content.core.registry.BaseRegistry.<init>(BaseRegistry.java:90)
+	at com.silabs.ss.platform.api.content.core.registry.BaseExtensionBackedRegistry.<init>(BaseExtensionBackedRegistry.java:46)
+	at com.silabs.ss.platform.api.content.core.registry.BaseMetadataRegistry.<init>(BaseMetadataRegistry.java:28)
+	at com.silabs.ss.platform.internal.content.kit.core.KitRegistry.<init>(KitRegistry.java:24)
+	at com.silabs.ss.platform.internal.content.kit.core.KitRegistry.create(KitRegistry.java:20)
+	at com.silabs.ss.platform.content.kit.core.Kit$SingletonHolder.<clinit>(Kit.java:18)
+	... 52 more
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-05 23:00:19.493
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.cdt.core 4 0 2018-11-05 23:00:19.679
+!MESSAGE Error while parsing /BG_CLIENT/client_main.c.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:194)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:185)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createWorkspaceFileContent(InternalParserUtil.java:163)
+	at org.eclipse.cdt.internal.core.parser.InternalParserUtil.createFileContent(InternalParserUtil.java:138)
+	at org.eclipse.cdt.core.parser.FileContent.create(FileContent.java:110)
+	at org.eclipse.cdt.internal.core.parser.SavedFilesProvider.getContentForInclusion(SavedFilesProvider.java:42)
+	at org.eclipse.cdt.internal.core.index.IndexBasedFileContentProvider.getContentForInclusion(IndexBasedFileContentProvider.java:187)
+	at org.eclipse.cdt.internal.core.index.IndexBasedFileContentProvider.getContentForInclusion(IndexBasedFileContentProvider.java:156)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:164)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor$1.checkFile(CPreprocessor.java:1)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.findInclusion(CPreprocessor.java:1231)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeInclude(CPreprocessor.java:1578)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.executeDirective(CPreprocessor.java:1354)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.internalFetchToken(CPreprocessor.java:942)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.fetchToken(CPreprocessor.java:641)
+	at org.eclipse.cdt.internal.core.parser.scanner.CPreprocessor.nextToken(CPreprocessor.java:738)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.fetchToken(AbstractGNUSourceCodeParser.java:278)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.nextToken(AbstractGNUSourceCodeParser.java:302)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.acceptInactiveCodeBoundary(AbstractGNUSourceCodeParser.java:363)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.declarationList(AbstractGNUSourceCodeParser.java:1333)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parseTranslationUnit(AbstractGNUSourceCodeParser.java:1306)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.translationUnit(AbstractGNUSourceCodeParser.java:1301)
+	at org.eclipse.cdt.internal.core.dom.parser.AbstractGNUSourceCodeParser.parse(AbstractGNUSourceCodeParser.java:658)
+	at org.eclipse.cdt.core.dom.parser.AbstractCLikeLanguage.getASTTranslationUnit(AbstractCLikeLanguage.java:167)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.createAST(AbstractIndexerTask.java:1229)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1086)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:898)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:94)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

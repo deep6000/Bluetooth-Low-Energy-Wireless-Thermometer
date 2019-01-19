@@ -1,0 +1,6 @@
+defaultSelection=mcu.arm.efr32.bg13.efr32bg13p632f512gm48\u0000
+disabledIDs=\u0000
+eclipse.preferences.version=1
+enabledIDs=\u0000
+knownPackageIds=com.silabs.metadata.common.feature,com.silabs.metadata.ezr32.feature,com.silabs.metadata.efr32.feature,com.silabs.metadata.ffd.feature,com.silabs.metadata.efm32.feature,com.silabs.metadata.sensors.feature,com.silabs.metadata.c8051.feature,com.silabs.metadata.emxxx.feature,com.silabs.metadata.efm8.feature
+knownParentDescs_com.silabs.ss.platform.content.core-metadataConfigs=Built In\u0000H\:\\Simplicity\\configuration\\studio\\metadata

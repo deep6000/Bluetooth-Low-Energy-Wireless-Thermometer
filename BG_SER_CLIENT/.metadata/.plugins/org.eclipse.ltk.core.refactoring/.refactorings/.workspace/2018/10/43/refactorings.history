@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;BG_SERVER/soc-thermometer.isc&apos;" deleteContents="false" description="Delete resource &apos;BG_SERVER/soc-thermometer.isc&apos;" element1="/BG_SERVER/soc-thermometer.isc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1540180488289"/>
+</session>
